@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        AccentColor: {
+          DEFAULT: "rgb(0, 134, 255)"
+        },
+        MainColor: {
+          DEFAULT: "rgb(231, 105, 64)"
+        },
+         AccentGreenColor: {
+          DEFAULT: "rgb(87, 228, 20)"
+        }
+      } ,
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

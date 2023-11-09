@@ -1,0 +1,68 @@
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.5px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+body {
+  font-family: var(--basic-font), sans-serif;
+}
+
+@media screen and (max-width: 767.5px) {
+  body.is {
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h3,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hover__color:hover,
+.hover__color:focus {
+  color: var(--accent-color);
+}
+.svgFill {
+  fill: var(--accent-color);
+}

@@ -38,7 +38,7 @@ export const VideoGalley = () => {
           src={`${VideoLinks[index]}`}
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <button className="group" type="button" onClick={handleNextClick}>
           <svg

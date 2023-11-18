@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <>
       <div
-        className="Container relative mx-auto max-w-7xl py-30 lg:py-44 p-6 bg-cover bg-center lg:bg-right-top lg:bg-auto"
+        className="Container  relative mx-auto max-w-7xl py-30 lg:py-44 p-6 bg-cover bg-center lg:bg-right-top lg:bg-auto"
         style={{
           backgroundRepeat: "no-repeat",
           backgroundImage: `url(${AlyssaBG.src})`,

@@ -2,7 +2,10 @@
 import Header from "./components/Header";
 import { Hero } from "./components/Hero";
 import AboutSection from "./components/AboutSection";
-import { VideoGalley } from "./components/VideoGallery";
+import { VideoGallery } from "./components/VideoGallery";
+import Products from "./components/Products";
+import ShopSection from "./components/ShopSection";
+import Contacts from "./components/Contacts";
 export default function Home() {
   return (
     <>
@@ -10,7 +13,10 @@ export default function Home() {
       <main className="">
         <Hero />
         <AboutSection />
-        <VideoGalley />
+        <VideoGallery />
+        <Products />
+        <ShopSection />
+        <Contacts />
       </main>
     </>
   );

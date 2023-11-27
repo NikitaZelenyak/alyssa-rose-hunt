@@ -23,6 +23,7 @@ const config: Config = {
         BlackColor: {
           DEFAULT: "rgb(0, 0, 0, 0.4)",
           100: "rgb(0, 0, 0, 0.1)",
+          200: "rgb(18, 20, 23)",
         },
       },
       backgroundImage: {

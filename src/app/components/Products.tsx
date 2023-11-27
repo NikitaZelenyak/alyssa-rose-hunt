@@ -2,7 +2,7 @@ export default function Products() {
   const styleSVG =
     "fill-MainColor group-hover:fill-AccentColor  group-focus:fill-AccentColor duration-300 ease-in-out";
   return (
-    <div className=" py-24 sm:py-32">
+    <div id="products" className=" py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="h2">Products</h2>
@@ -36,7 +36,12 @@ export default function Products() {
             </a>
           </li>
           <li className="bg-MainColor-100 p-10 rounded-xl shadow-sm shadow-MainColor-200 hover:shadow-xl hover:shadow-MainColor-200 ease-in-out duration-300 group">
-            <a href="" className="flex flex-col items-center">
+            <a
+              rel="nofollow"
+              target="_blank"
+              href="https://open.spotify.com/artist/5OV9SlnnRrE6grZoukQL1e"
+              className="flex flex-col items-center"
+            >
               <div className="relative">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +80,12 @@ export default function Products() {
             </a>
           </li>
           <li className="bg-MainColor-100 p-10 rounded-xl shadow-sm shadow-MainColor-200 hover:shadow-xl hover:shadow-MainColor-200 ease-in-out duration-300 group">
-            <a href="" className="flex flex-col items-center">
+            <a
+              rel="nofollow"
+              target="_blank"
+              href="https://www.youtube.com/@alyssarosehunt"
+              className="flex flex-col items-center"
+            >
               <div className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +109,12 @@ export default function Products() {
             </a>
           </li>
           <li className="bg-MainColor-100 p-10 rounded-xl shadow-sm shadow-MainColor-200 hover:shadow-xl hover:shadow-MainColor-200 ease-in-out duration-300 group">
-            <a href="" className="flex flex-col items-center">
+            <a
+              rel="nofollow"
+              target="_blank"
+              href="https://music.apple.com/us/artist/alyssa-rose-hunt/1536065338"
+              className="flex flex-col items-center"
+            >
               <div className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

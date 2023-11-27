@@ -7,7 +7,7 @@ export default function AboutSection() {
   const ListStyle =
     "flex p-2 rounded-xl border border-MainColor-100  hover:border-AccentColor  focus:border-AccentColor duration-300 ease-in-out group cursor-pointer";
   return (
-    <div className="">
+    <div id="about-me" className="">
       <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="h2">
@@ -98,7 +98,12 @@ export default function AboutSection() {
             </div>
             <ul className="flex mt-10 gap-8">
               <li className={`${ListStyle}`}>
-                <a href="">
+                <a
+                  rel="nofollow"
+                  target="_blank"
+                  href="https://music.apple.com/us/artist/alyssa-rose-hunt/1536065338"
+                >
+                  {/* Apple Music */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="80"
@@ -114,7 +119,12 @@ export default function AboutSection() {
                 </a>
               </li>
               <li className={`${ListStyle}`}>
-                <a href="">
+                {/* Spotify */}
+                <a
+                  rel="nofollow"
+                  target="_blank"
+                  href="https://open.spotify.com/artist/5OV9SlnnRrE6grZoukQL1e"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="80"

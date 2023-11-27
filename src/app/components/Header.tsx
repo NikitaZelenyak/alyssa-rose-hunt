@@ -32,13 +32,19 @@ export default function Header() {
         <nav className="hidden lg:block">
           <ul className="flex gap-4 items-center justify-between ">
             <li className="relative overflow-hidden group">
-              <a className="hover__color duration-300 ease-in-out" href="">
+              <a
+                className="hover__color duration-300 ease-in-out"
+                href="#about-me"
+              >
                 About me
               </a>
               <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentColor"></span>
             </li>
             <li className="relative overflow-hidden group">
-              <a className="hover__color duration-300 ease-in-out" href="">
+              <a
+                className="hover__color duration-300 ease-in-out"
+                href="#products"
+              >
                 Products
               </a>
               <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentColor"></span>
@@ -46,14 +52,17 @@ export default function Header() {
             <li className="relative overflow-hidden group">
               <a
                 className=" text-AccentGreenColor duration-300 ease-in-out"
-                href=""
+                href="#shop"
               >
                 Shop
               </a>
               <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentGreenColor"></span>
             </li>
             <li className="relative overflow-hidden group">
-              <a className="hover__color duration-300 ease-in-out" href="">
+              <a
+                className="hover__color duration-300 ease-in-out"
+                href="#contacts"
+              >
                 Contacts
               </a>
               <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentColor"></span>
@@ -63,7 +72,12 @@ export default function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <ul className="hidden lg:flex gap-2 items-center justify-between">
             <li className={`${ListStyle}`}>
-              <a href="">
+              {/* apple music */}
+              <a
+                rel="nofollow"
+                target="_blank"
+                href="https://music.apple.com/us/artist/alyssa-rose-hunt/1536065338"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -79,7 +93,12 @@ export default function Header() {
               </a>
             </li>
             <li className={`${ListStyle}`}>
-              <a href="">
+              {/* spotify */}
+              <a
+                rel="nofollow"
+                target="_blank"
+                href="https://open.spotify.com/artist/5OV9SlnnRrE6grZoukQL1e"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -95,7 +114,8 @@ export default function Header() {
               </a>
             </li>
             <li className=" flex p-2 rounded-xl border border-MainColor-100  hover:border-AccentGreenColor  focus:border-AccentGreenColor duration-300 ease-in-out group cursor-pointer">
-              <a href="">
+              {/* shop */}
+              <a rel="nofollow" target="_blank" href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -113,7 +133,12 @@ export default function Header() {
               </a>
             </li>
             <li className={`${ListStyle}`}>
-              <a href="">
+              {/* youtube */}
+              <a
+                rel="nofollow"
+                target="_blank"
+                href="https://www.youtube.com/@alyssarosehunt"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -129,7 +154,12 @@ export default function Header() {
               </a>
             </li>
             <li className={`${ListStyle}`}>
-              <a href="">
+              {/* inst */}
+              <a
+                rel="nofollow"
+                target="_blank"
+                href="https://www.instagram.com/alyssarosehunt/"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="36"
@@ -177,7 +207,7 @@ export default function Header() {
                     <li className="relative overflow-hidden group">
                       <a
                         className="hover__color duration-300 ease-in-out"
-                        href=""
+                        href="#about-me"
                       >
                         About me
                       </a>
@@ -186,7 +216,7 @@ export default function Header() {
                     <li className="relative overflow-hidden group">
                       <a
                         className="hover__color duration-300 ease-in-out"
-                        href=""
+                        href="#products"
                       >
                         Products
                       </a>
@@ -195,7 +225,7 @@ export default function Header() {
                     <li className="relative overflow-hidden group">
                       <a
                         className=" text-AccentGreenColor duration-300 ease-in-out"
-                        href=""
+                        href="#shop"
                       >
                         Shop
                       </a>
@@ -204,7 +234,7 @@ export default function Header() {
                     <li className="relative overflow-hidden group">
                       <a
                         className="hover__color duration-300 ease-in-out"
-                        href=""
+                        href="#contacts"
                       >
                         Contacts
                       </a>
@@ -214,7 +244,12 @@ export default function Header() {
                 </nav>
                 <ul className="lg:hidden mt-12 flex gap-2 items-center justify-between">
                   <li className={`${ListStyle}`}>
-                    <a href="">
+                    {/* apple music */}
+                    <a
+                      rel="nofollow"
+                      target="_blank"
+                      href="https://music.apple.com/us/artist/alyssa-rose-hunt/1536065338"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
@@ -230,7 +265,12 @@ export default function Header() {
                     </a>
                   </li>
                   <li className={`${ListStyle}`}>
-                    <a href="">
+                    {/* spotify */}
+                    <a
+                      rel="nofollow"
+                      target="_blank"
+                      href="https://open.spotify.com/artist/5OV9SlnnRrE6grZoukQL1e"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
@@ -246,7 +286,7 @@ export default function Header() {
                     </a>
                   </li>
                   <li className=" flex p-2 rounded-xl border border-MainColor-100  hover:border-AccentGreenColor  focus:border-AccentGreenColor duration-300 ease-in-out group cursor-pointer">
-                    <a href="">
+                    <a rel="nofollow" target="_blank" href="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
@@ -264,7 +304,12 @@ export default function Header() {
                     </a>
                   </li>
                   <li className={`${ListStyle}`}>
-                    <a href="">
+                    {/* youtube */}
+                    <a
+                      rel="nofollow"
+                      target="_blank"
+                      href="https://www.youtube.com/@alyssarosehunt"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="36"
@@ -280,7 +325,12 @@ export default function Header() {
                     </a>
                   </li>
                   <li className={`${ListStyle}`}>
-                    <a href="">
+                    {/* inst */}
+                    <a
+                      rel="nofollow"
+                      target="_blank"
+                      href="https://www.instagram.com/alyssarosehunt/"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"

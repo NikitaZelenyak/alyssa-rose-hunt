@@ -49,7 +49,7 @@ export default function Header() {
               </a>
               <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentColor"></span>
             </li>
-            <li className="relative overflow-hidden group">
+            {/* <li className="relative overflow-hidden group">
               <a
                 className=" text-AccentGreenColor duration-300 ease-in-out"
                 href="#shop"
@@ -57,7 +57,7 @@ export default function Header() {
                 Shop
               </a>
               <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentGreenColor"></span>
-            </li>
+            </li> */}
             <li className="relative overflow-hidden group">
               <a
                 className="hover__color duration-300 ease-in-out"
@@ -109,25 +109,6 @@ export default function Header() {
                     className={`${styleSVG}`}
                     fill="currentColor"
                     d="M17.9 10.9C14.7 9 9.35 8.8 6.3 9.75c-.5.15-1-.15-1.15-.6c-.15-.5.15-1 .6-1.15c3.55-1.05 9.4-.85 13.1 1.35c.45.25.6.85.35 1.3c-.25.35-.85.5-1.3.25m-.1 2.8c-.25.35-.7.5-1.05.25c-2.7-1.65-6.8-2.15-9.95-1.15c-.4.1-.85-.1-.95-.5c-.1-.4.1-.85.5-.95c3.65-1.1 8.15-.55 11.25 1.35c.3.15.45.65.2 1m-1.2 2.75c-.2.3-.55.4-.85.2c-2.35-1.45-5.3-1.75-8.8-.95c-.35.1-.65-.15-.75-.45c-.1-.35.15-.65.45-.75c3.8-.85 7.1-.5 9.7 1.1c.35.15.4.55.25.85M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"
-                  />
-                </svg>
-              </a>
-            </li>
-            <li className=" flex p-2 rounded-xl border border-MainColor-100  hover:border-AccentGreenColor  focus:border-AccentGreenColor duration-300 ease-in-out group cursor-pointer">
-              {/* shop */}
-              <a rel="nofollow" target="_blank" href="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="36"
-                  height="36"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    className={
-                      "fill-MainColor group-hover:fill-AccentGreenColor  group-focus:fill-AccentGreenColor duration-300 ease-in-out "
-                    }
-                    fill="currentColor"
-                    d="M14.9 5.1s-.2.06-.54.17c-.06-.18-.14-.41-.26-.63c-.38-.73-.94-1.11-1.62-1.12c-.05 0-.09 0-.14.01c-.02-.02-.04-.05-.06-.07c-.29-.32-.67-.47-1.12-.46c-.87.03-1.74.66-2.45 1.78c-.5.79-.87 1.78-.98 2.54c-1 .31-1.7.53-1.72.53c-.51.16-.52.18-.59.65c-.05.36-1.37 10.6-1.37 10.6L15.03 21V5.08c-.05 0-.1.01-.13.02zm-2.54.79c-.58.18-1.22.38-1.85.57c.18-.69.52-1.37.94-1.82c.16-.17.37-.35.63-.46c.24.51.29 1.22.28 1.71zm-1.19-2.31c.2 0 .38.04.53.14c-.24.12-.46.3-.68.53c-.55.59-.98 1.52-1.15 2.41c-.53.16-1.04.32-1.52.47c.3-1.41 1.48-3.51 2.82-3.55zm-1.7 7.99c.06.93 2.52 1.14 2.66 3.33c.11 1.72-.91 2.9-2.39 2.99C7.98 18 7 16.96 7 16.96l.37-1.59s.98.74 1.76.69c.51-.03.69-.45.68-.74c-.08-1.22-2.08-1.15-2.2-3.15c-.11-1.69 1-3.39 3.44-3.55c.95-.06 1.43.18 1.43.18l-.56 2.09s-.62-.28-1.36-.24c-1.08.07-1.1.75-1.09.92zm3.47-5.86c-.01-.44-.06-1.06-.27-1.59c.66.13.99.87 1.13 1.32c-.25.08-.54.17-.86.27zm2.45 15.25l4.56-1.13S17.99 6.57 17.98 6.48c-.01-.09-.09-.14-.16-.15c-.07-.01-1.35-.03-1.35-.03s-.78-.76-1.08-1.05v15.71z"
                   />
                 </svg>
               </a>
@@ -206,6 +187,7 @@ export default function Header() {
                   <ul className="flex flex-col gap-4 items-center justify-between ">
                     <li className="relative overflow-hidden group">
                       <a
+                        onClick={() => setMobileMenuOpen(false)}
                         className="hover__color duration-300 ease-in-out"
                         href="#about-me"
                       >
@@ -215,6 +197,7 @@ export default function Header() {
                     </li>
                     <li className="relative overflow-hidden group">
                       <a
+                        onClick={() => setMobileMenuOpen(false)}
                         className="hover__color duration-300 ease-in-out"
                         href="#products"
                       >
@@ -222,7 +205,7 @@ export default function Header() {
                       </a>
                       <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentColor"></span>
                     </li>
-                    <li className="relative overflow-hidden group">
+                    {/* <li className="relative overflow-hidden group">
                       <a
                         className=" text-AccentGreenColor duration-300 ease-in-out"
                         href="#shop"
@@ -230,9 +213,10 @@ export default function Header() {
                         Shop
                       </a>
                       <span className=" absolute bottom-0  left-0 h-[2px]  translate-x-[-110%]  group-hover:translate-x-[0] w-full  ease-in-out duration-300 bg-AccentGreenColor"></span>
-                    </li>
+                    </li> */}
                     <li className="relative overflow-hidden group">
                       <a
+                        onClick={() => setMobileMenuOpen(false)}
                         className="hover__color duration-300 ease-in-out"
                         href="#contacts"
                       >

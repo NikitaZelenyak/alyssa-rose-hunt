@@ -26,14 +26,14 @@ export default function Footer() {
                   Products
                 </a>
               </li>
-              <li className="relative overflow-hidden group">
+              {/* <li className="relative overflow-hidden group">
                 <a
                   className=" hover:text-MainColor-100 duration-300 ease-in-out"
                   href=""
                 >
                   Shop
                 </a>
-              </li>
+              </li> */}
               <li className="relative overflow-hidden group">
                 <a
                   className="hover:text-MainColor-100 duration-300 ease-in-out"

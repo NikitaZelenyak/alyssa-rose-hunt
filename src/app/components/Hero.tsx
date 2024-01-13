@@ -23,10 +23,10 @@ export const Hero = () => {
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
-                href="#"
+                href="https://open.spotify.com/artist/5OV9SlnnRrE6grZoukQL1e"
                 className="rounded-md bg-AccentColor px-8 py-6 text-sm font-semibold text-white shadow-sm hover:bg-AccentGreenColor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                GO TO MY SHOP
+                GO TO MY SPOTIFY
               </a>
             </div>
           </div>

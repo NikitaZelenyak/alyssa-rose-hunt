@@ -9,7 +9,7 @@ export default function Products() {
         </div>
 
         <ul className=" mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <li className="bg-MainColor-100 p-10 rounded-xl shadow-sm shadow-MainColor-200 hover:shadow-xl hover:shadow-MainColor-200 ease-in-out duration-300 group">
+          {/* <li className="bg-MainColor-100 p-10 rounded-xl shadow-sm shadow-MainColor-200 hover:shadow-xl hover:shadow-MainColor-200 ease-in-out duration-300 group">
             <a href="" className="flex flex-col items-center">
               <div className="relative">
                 <svg
@@ -34,7 +34,7 @@ export default function Products() {
                 joining the musical adventure!
               </p>
             </a>
-          </li>
+          </li> */}
           <li className="bg-MainColor-100 p-10 rounded-xl shadow-sm shadow-MainColor-200 hover:shadow-xl hover:shadow-MainColor-200 ease-in-out duration-300 group">
             <a
               rel="nofollow"

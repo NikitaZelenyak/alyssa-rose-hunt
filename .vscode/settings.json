@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "heroicons"
-    ]
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.find.autoFindInSelection": "always"
 }

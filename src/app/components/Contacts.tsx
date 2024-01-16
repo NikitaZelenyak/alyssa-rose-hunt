@@ -58,11 +58,7 @@ export default function Contacts() {
             </a>
           </li>
           <li className={`${ListStyle}`}>
-            <a
-              rel="nofollow"
-              target="_blank"
-              href="mailto:alyssarhunt24@gmail.com"
-            >
+            <a rel="nofollow" target="_blank" href="mailto:arh24342@gmail.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"

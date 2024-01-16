@@ -10,15 +10,25 @@ const config: Config = {
     extend: {
       colors: {
         AccentColor: {
-          DEFAULT: "rgb(0, 134, 255)",
+          // DEFAULT: "rgb(0, 134, 255)",
+          // DEFAULT: "rgb(186, 130, 199)",
+          DEFAULT: "rgb(50, 60, 182)",
         },
+        // MainColor: {
+        //   DEFAULT: "rgb(231, 105, 64)",
+        //   100: "rgb(231, 105, 64, 0.2)",
+        //   200: "rgb(248, 215, 204)",
+        // },
         MainColor: {
-          DEFAULT: "rgb(231, 105, 64)",
-          100: "rgb(231, 105, 64, 0.2)",
-          200: "rgb(248, 215, 204)",
+          DEFAULT: "rgb(186, 130, 199)",
+          100: "rgb(186, 130, 199, 0.2)",
+          200: "rgb(186, 130, 199)",
         },
+        // AccentGreenColor: {
+        //   DEFAULT: "rgb(87, 228, 20)",
+        // },
         AccentGreenColor: {
-          DEFAULT: "rgb(87, 228, 20)",
+          DEFAULT: "rgb(67, 186, 154)",
         },
         BlackColor: {
           DEFAULT: "rgb(0, 0, 0, 0.4)",

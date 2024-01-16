@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="bg-BlackColor-200 relative py-20 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="lg:flex items-center justify-between pb-12 border-b border-white">
-          <h2>Alyssa Rose</h2>
+          <h2>Alyssa Rose Hunt</h2>
           <nav className="block  mt-8 lg:mt-0 ">
             <ul className="grid gap-4 grid-cols-2 lg:grid-cols-4 items-center justify-between ">
               <li className="relative overflow-hidden group">
@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-between ">
           <p className="mt-8 text-[16px] text-MainColor-100">
-            ©2023 Alyssa Rose. All rights reserved.
+            ©2024 Alyssa Rose. All rights reserved.
           </p>
         </div>
       </div>

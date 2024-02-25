@@ -23,9 +23,9 @@ export const GallerySection = () => {
   const classNameBTN =
     "rounded-md ease-in-out duration-300 bg-AccentColor  px-4 py-2  text-sm font-semibold text-white shadow-sm hover:bg-MainColor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600";
   return (
-    <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+    <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 ">
       <h2 className="sr-only">Alyssa Rose Hunt Image Gallery</h2>
-      <div className="flex items-center justify-center gap-8 mb-6">
+      <div className="flex items-center justify-center gap-8 mb-6 relative">
         <button
           onClick={() => setImageType(true)}
           className={`${classNameBTN} ${imageType && "bg-MainColor"}`}
@@ -40,6 +40,8 @@ export const GallerySection = () => {
         >
           Alyssa's photo
         </button>
+       
+    
       </div>
       <div className="w-full flex items-center justify-center gap-2 md:gap-8">
         <button className="group" type="button" onClick={handlePrevClick}>
@@ -68,6 +70,7 @@ export const GallerySection = () => {
               alt={"ALyssa"}
             />
           ))}
+          {!imageType && <a  className={`${classNameBTN}  absolute top-4 right-4 `} target="_blank" href="https://vsco.co/alyssarosehunt/gallery">Watch more</a>}
         </div>
         <button className="group" type="button" onClick={handleNextClick}>
           <svg
@@ -84,6 +87,9 @@ export const GallerySection = () => {
             />
           </svg>
         </button>
+        
+     
+       
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ export const Hero = () => {
       >
         <div className="mx-auto max-w-2xl lg:mx-0 ">
           <h1 className="max-w-2xl mb-6 text-4xl font-bold tracking-tight text-gray-500 sm:text-6xl lg:col-span-2 xl:col-auto">
-            ARL Label
+            ARH Label
           </h1>
           <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p className="text-lg leading-8 text-gray-400">

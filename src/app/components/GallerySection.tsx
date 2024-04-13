@@ -1,23 +1,21 @@
 import { AllysaImage } from "../db/imageDB";
 import { useState } from "react";
 import Image from "next/image";
-import { PhotoImageUrls } from "../db/imageDB";
 export const GallerySection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imageType, setImageType] = useState(true);
   const styleSVG =
     "fill-MainColor group-hover:fill-AccentColor  group-focus:fill-AccentColor duration-300 ease-in-out";
   const iframeContainerStyle = "w-full overflow-hidden flex justify-center ";
-  const imagesArray = imageType ? AllysaImage : PhotoImageUrls;
   const handlePrevClick = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? imagesArray.length - 1 : prevIndex - 1
+      prevIndex === 0 ? AllysaImage.length - 1 : prevIndex - 1
     );
   };
 
   const handleNextClick = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === imagesArray.length - 1 ? 0 : prevIndex + 1
+      prevIndex === AllysaImage.length - 1 ? 0 : prevIndex + 1
     );
   };
   const classNameBTN =
@@ -33,15 +31,13 @@ export const GallerySection = () => {
         >
           Alyssa Rose Hunt
         </button>
-        <button
-          onClick={() => setImageType(false)}
+        <a
           className={`${classNameBTN} ${!imageType && "bg-MainColor"}`}
-          type="button"
+          href="https://vs.co/875ubl0n"
+          target="_blank"
         >
           Alyssa's photo
-        </button>
-       
-    
+        </a>
       </div>
       <div className="w-full flex items-center justify-center gap-2 md:gap-8">
         <button className="group" type="button" onClick={handlePrevClick}>
@@ -62,7 +58,7 @@ export const GallerySection = () => {
         <div
           className={`${iframeContainerStyle} relative w-[300px] h-[280px] md:w-[620px] md:h-[480px] lg:w-[820px] lg:h-[680px]`}
         >
-          {imagesArray.map((src, index) => (
+          {AllysaImage.map((src, index) => (
             <Image
               className={`${index === currentIndex ? "  block" : "hidden"}`}
               layout="fill"
@@ -70,7 +66,6 @@ export const GallerySection = () => {
               alt={"ALyssa"}
             />
           ))}
-          {!imageType && <a  className={`${classNameBTN}  absolute top-4 right-4 `} target="_blank" href="https://vsco.co/alyssarosehunt/gallery">Watch more</a>}
         </div>
         <button className="group" type="button" onClick={handleNextClick}>
           <svg
@@ -87,9 +82,6 @@ export const GallerySection = () => {
             />
           </svg>
         </button>
-        
-     
-       
       </div>
     </div>
   );
